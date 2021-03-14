@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(14, 13, 13, 0.8);
+}
+
+
+nav {
+    float: inline-end;
+    width: 14.8%;
+    height: auto;
+    font-family: comic;
+    right: 5px;
+}
+
+.item label {
+    display: block;
+    padding: 5%;
+    background-color: #434343;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    border-style: solid 2px #fffefe;
+}
+
+.iniciob {
+    width: 15%;
+    height: 15%;
+    background-color: #434343;
+    font-size: 12%;
+    cursor: pointer;
+    color: #ffffff;
+    border-style: solid 2px #fffefe;
+}
+
+
+}
+.item label:hover {
+    background-color: #f2673a;
+    color: rgb(0, 0, 0);
+    border: solid 2px;
+}
+.item ul {
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .4s linear;
+    color: rgb(0, 0, 0);
+    border: solid 1px;
+}
+.item ul li a {
+    width: 20%px;
+    height: 5%px;
+    padding: 5%;
+    display: block;
+    text-decoration: none;
+    background-color: #6279df;
+    color: rgb(0, 0, 0);
+    border: solid 1px;
+}
+.item input:checked~ul {
+    height: auto;
+    max-height: 1000px;
+    transform: all;
+}
+.item input {
+    display: none;
+}
+.item ul li a:hover {
+    background-color: #9cf;
+}
+.targe {
+    color: rgb(0, 0, 0);
+    background-color: #434343;
+    width: 14.8%;
+    height: 108%;
+    position: absolute;
+    z-index: -1;
+    border-right: 3px solid;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+
+
+table {
+    width: 100%;
+    overflow: scroll;
+    border-style: solid 2px black;
+}
+.text4 {
+    padding: 3px;
+}
+.tb1 {
+    position: absolute;
+    width: 780px;
+    height: auto;
+    top: 0px;
+    left: 200px;
+    text-shadow: 2px;
+    font-family: comic;
+}
+.tb2 {
+    position: absolute;
+    width: 780px;
+    height: auto;
+    top: 330px;
+    left: 200px;
+    text-shadow: 2px;
+    font-family: comic;
+}
+tr {
+    font-family: comic;
+    color: whitesmoke;
+    font-size: 20px;
+}
+img {
+    display: block;
+    padding: 10px;
+    background-color: #434343;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    border-style: solid 2px #fffefe;
+}
+img {
+    width: 183px;
+    height: 275px;
+}
+
